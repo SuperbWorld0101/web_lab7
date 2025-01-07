@@ -3,12 +3,13 @@
 
 .planet {
   font-family: "Oswald", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size:50px;
+  font-size: 50px;
   background-color:blue;
   color:yellow;
+  position:relative;
+  left:700px;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -38,20 +39,40 @@
 .data {
 	font-family:sans-serif;
 	font-size:30px;
-	
-}
-
-#float{
-	float:right;
-	position:fixed;
-	z-index:10;
 }
 
 #more{
-	position:absolute;
 	font-family:sans-serif;
 	font-size:30px;
+	float:right;
+	width:30px;
+	position:fixed;
+	background-color:red;
+	z-index:10;
 }
+
+.image{
+	width:500px;
+	height:500px;
+	position:relative;
+	left:500px;
+}
+
+.table{
+	position:relative;
+	left:600px;
+}
+
+#body{
+	background-color:yellow;
+}
+
+.small{
+	font-size:10px;
+	position:relative;
+	bottom:10px;
+}
+	
 
 
 
