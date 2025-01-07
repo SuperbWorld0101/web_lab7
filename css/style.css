@@ -6,6 +6,9 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size:50px;
+  background-color:blue;
+  color:yellow;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -16,6 +19,8 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size:30px;
+  color:rgb(200,100,300)
 }
 
 // <uniquifier>: Use a unique and descriptive class name
@@ -26,6 +31,28 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size:70px;
+  background-color:gray;
 }
+
+.data {
+	font-family:sans-serif;
+	font-size:30px;
+	
+}
+
+#float{
+	float:right;
+	position:fixed;
+	z-index:10;
+}
+
+#more{
+	position:absolute;
+	font-family:sans-serif;
+	font-size:30px;
+}
+
+
 
 	
